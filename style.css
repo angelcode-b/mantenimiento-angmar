@@ -555,3 +555,73 @@ p{
   }
 
 }
+/* Ajustes generales */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+/* La tarjeta principal */
+.card{
+    width:90%;
+    max-width:500px;
+    margin:auto;
+    padding:20px;
+}
+
+/* Imagen */
+.tecnico{
+    width:120px;
+    max-width:100%;
+}
+
+/* Servicios */
+.servicios{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+}
+
+/* Cada servicio */
+.servicio{
+    width:140px;
+    padding:15px;
+}
+
+/* Botón */
+.boton{
+    display:inline-block;
+    width:90%;
+    max-width:300px;
+}
+
+/* Celulares */
+@media (max-width:600px){
+
+    h1{
+        font-size:28px;
+    }
+
+    h2{
+        font-size:18px;
+    }
+
+    p{
+        font-size:15px;
+    }
+
+    .servicio{
+        width:100%;
+    }
+
+    .whatsapp-icon{
+        width:55px !important;
+        height:55px !important;
+    }
+}
